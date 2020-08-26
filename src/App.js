@@ -1,11 +1,12 @@
 import React from 'react';
 import Gerenciador from './pages/gerenciador';
+import Tarefa from './components/Tarefas';
 import './App.css';
 
 function App() {
 	return (
 		<div>
-			<Gerenciador />
+			<Tarefa />
 		</div>
 	);
 }
